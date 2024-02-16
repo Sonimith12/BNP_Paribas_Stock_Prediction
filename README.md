@@ -4,6 +4,8 @@ The objective of this project is to predict the stock price using its historical
 
 You will fine the data in excel file, and applied methods in R script. 
 
+YOu will also find methods evaluation in "Holt_Winters_Exponential_Smoothing_2.R" and graphs compare performance of each methods. 
+
 
 
 
