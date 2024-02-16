@@ -1,5 +1,4 @@
-# Install and load the forecast package if not already installed
-# install.packages("forecast")
+
 library(forecast)
 library(lmtest)
 
@@ -34,7 +33,7 @@ print(ts_data)
 
 fit_hw_additive <- HoltWinters(ts_data)
 
-forecasts_hw_additive <- forecast(fit_hw_additive, h = 12)  # Adjust 'h' as needed for the number of future periods
+forecasts_hw_additive <- forecast(fit_hw_additive, h = 12)  
 
 print(forecasts_hw_additive)
 
